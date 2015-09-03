@@ -1,0 +1,115 @@
+Notes on Apache Cassandra 
+======================
+
+
+#### CQLSH References
+
+- [DESCRIBE]( http://www.datastax.com/docs/1.1/references/cql/DESCRIBE )
+
+
+#### Starting Cassandra
+
+    sudo cassandra -f
+
+
+#### Stopping Cassandra
+
+Find the process ID by using the following command:
+    
+    ps auwx | grep cassandra
+
+
+Kill the process
+    
+    sudo kill [pid]
+
+
+#### Start Cassandra as a service
+
+    sudo /etc/init.d/cassandra start
+    sudo /etc/init.d/cassandra stop
+    
+Starting automatically at boot:
+
+    sudo chmod +x /etc/init.d/cassandra
+
+For Ubuntu, add it to the startup by executing
+
+    sudo update-rc.d cassandra defaults
+    
+To stop the service:
+
+    sudo /etc/init.d/cassandra stop
+
+Refer to [reference]( http://blog.burcsade.com/2011/08/06/automatically-starting-cassandra-at-boot-time/ )
+
+
+#### Installation
+
+Installation will create following directories. Uses of them are mentioned within the brackets.
+
+    /var/lib/cassandra (data directories)
+    /var/log/cassandra (log directory)
+    /var/run/cassandra (runtime files)
+    /usr/share/cassandra (environment settings)
+    /usr/share/cassandra/lib (JAR files)
+    /usr/bin (binary files)
+    /usr/sbin
+    /etc/cassandra (configuration files)
+    /etc/init.d (service startup script)
+    /etc/security/limits.d (cassandra user limits)
+    /etc/default
+
+
+#### Official Package To Install On Debian(tm) (not a product of Debian(tm))
+
+DataStax hosts debian packages that include Cassandra and various tools for working with Cassandra.
+
+Alternatively, you can install directly from the ASF repositories by inserting the following into /etc/apt/sources.list:
+
+    deb http://www.apache.org/dist/cassandra/debian 20x main
+    deb-src http://www.apache.org/dist/cassandra/debian 20x main
+
+You will want to replace 11x by the series you want to use: `10x for the 1.0.x series, 08x for the 0.8.x series, etc... You will not automatically get major version updates unless you change the series, but that is a feature.
+
+If you run apt-get update now, you will see an error similar to this:
+
+    GPG error: http://www.apache.org unstable Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F758CE318D77295D
+
+This simply means you need to add the PUBLIC_KEY. You do that like this:
+
+    gpg --keyserver pgp.mit.edu --recv-keys F758CE318D77295D
+    gpg --export --armor F758CE318D77295D | sudo apt-key add -
+
+Starting with the 0.7.5 debian package, you will also need to add public key 2B5C1B00 using the same commands as above:
+
+    gpg --keyserver pgp.mit.edu --recv-keys 2B5C1B00
+    gpg --export --armor 2B5C1B00 | sudo apt-key add -
+
+(The list of Apache contributors public keys is available at http://www.apache.org/dist/cassandra/KEYS).
+
+Then you may install Cassandra by doing:
+
+    sudo apt-get update
+    sudo apt-get install cassandra
+    Some things to be aware of:
+
+The configuration files are located in /etc/cassandra
+Start-up options (heap size, etc) can be configured in /etc/default/cassandra
+
+
+#### Uninstalling Cassandra
+
+Uninstall Cassandra using apt-get
+
+    apt-get remove cassandra
+
+Remove data/log/ directories
+
+    rm -rf /var/lib/cassandra
+    rm -rf /var/log/cassandra
+    rm -rf /etc/cassandra
+
+Check [here]( http://stackoverflow.com/questions/13390775/how-can-i-reinstall-a-cassandra-on-ubuntu ) for details.
+
+

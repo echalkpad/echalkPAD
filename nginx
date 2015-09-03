@@ -1,0 +1,26 @@
+Notes on Nginx
+============
+
+#### Installing Nginx on Ubuntu
+
+The latest version available is Nginx 1.6.0, but it is only avaiable via PPA. To 
+install, add the PPA to your system, update your local repository index and install
+the Nginx package:
+
+    sudo add-apt-repository ppa:nginx/stable
+
+    sudo apt-get update
+
+    sudo apt-get install nginx
+
+
+#### Removing Nginx
+
+Optionally, to remove Nginx:
+
+    sudo apt-get remove nginx
+    
+    
+#### Commands
+
+Command line [options]( http://wiki.nginx.org/CommandLine ).

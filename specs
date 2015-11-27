@@ -9,3 +9,7 @@
    https://github.com/driftyco/cordova-camera-roll
 5) https://github.com/muvr/muvr-server/  ---important to look into
 6) Dashboard specs - https://github.com/cwheel/Familee/blob/a9b317f1323ac4256e0bdcf18881cdfa6f0ac6a5/app/routes/login.html
+
+
+Bluetooth Devices
+1) Excellent source for BLE - NODEJS https://github.com/sandeepmistry/noble

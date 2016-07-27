@@ -3,3 +3,15 @@ Pulse sensor node class for tessel:
     heartbeat and toggles the blue LED in time.
   https://raw.githubusercontent.com/Frijol/PulseSensor/master/index.js
   
+Wifi connection:
+         https://github.com/echalkpad/website-down-alarm
+
+Sensor object model ( best ble modeule)
+         https://github.com/echalkpad/sensorjs-ble
+         https://github.com/echalkpad/sensorjs
+
+Security:
+        https://github.com/daliworks/activator
+        
+Signalbox Similar:
+         https://github.com/daliworks/sensorjs-app

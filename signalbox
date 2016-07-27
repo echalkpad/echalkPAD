@@ -58,3 +58,6 @@ UI
 
 npm Proxy issue    
     npm config set strict-ssl false
+
+Server:
+    https://github.com/mschmulen/workshop-strongloop-loopback

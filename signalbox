@@ -39,7 +39,8 @@ Architecture:
         https://github.com/wejs/we-plugin-notification (drupal similar architecture in nodejs)
         Store:
             http://onehungrymind.com/build-better-angular-2-application-redux-ngrx/
-            
+        Promise:
+            Bluebird is a full featured promise library with unmatched performance. http://bluebirdjs.com
             
 Graphs/Analytics
            http://sensors.fonts.cat/# https://github.com/oscarfonts/sensor-widgets (make it part of angular 2.0 widget)\

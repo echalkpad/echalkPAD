@@ -37,7 +37,10 @@ Architecture:
         http://52north.org/communities/sensorweb/ses/0.0.1/index.html https://github.com/52North/sensorweb-client-core
         https://github.com/sensorlab/SensorManagementSystem/blob/master/app/server.js
         https://github.com/wejs/we-plugin-notification (drupal similar architecture in nodejs)
-
+        Store:
+            http://onehungrymind.com/build-better-angular-2-application-redux-ngrx/
+            
+            
 Graphs/Analytics
            http://sensors.fonts.cat/# https://github.com/oscarfonts/sensor-widgets (make it part of angular 2.0 widget)\
         Awesome visualizaton https://github.com/52North/helgoland

@@ -54,6 +54,7 @@ Graphs/Analytics
 UI
     https://github.com/FountainJS/generator-fountain-angular2 
     https://github.com/mwaylabs/generator-m-ionic
+    https://github.com/ashteya/ionic2-tutorial-github
 
 npm Proxy issue    
     npm config set strict-ssl false

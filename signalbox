@@ -46,3 +46,10 @@ Graphs/Analytics
          http://smoothiecharts.org/  realtime smooth grph for measurement
            
           https://github.com/dnahoole/sensor/blob/master/js/sensor.js (D3)
+
+UI
+    https://github.com/FountainJS/generator-fountain-angular2 
+
+
+npm Proxy issue    
+    npm config set strict-ssl false

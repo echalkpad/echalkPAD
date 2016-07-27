@@ -7,7 +7,8 @@ Wifi connection:
          https://github.com/echalkpad/website-down-alarm
 
 BLE 
-         Best https://github.com/tobiasfabian/Angel-Sensor-Node.js/tree/master/characteristics
+         Best Similar to cordova ble
+             https://github.com/tobiasfabian/Angel-Sensor-Node.js/tree/master/characteristics
          
 Sensor object model ( best ble modeule)
          https://github.com/echalkpad/sensorjs-ble

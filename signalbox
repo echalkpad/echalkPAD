@@ -9,9 +9,18 @@ Wifi connection:
 Sensor object model ( best ble modeule)
          https://github.com/echalkpad/sensorjs-ble
          https://github.com/echalkpad/sensorjs
-
+         API https://github.com/sandeepmistry/node-sensortag/blob/master/lib/sensortag.js
+         https://github.com/sandeepmistry/noble
+         
 Security:
         https://github.com/daliworks/activator
         
 Signalbox Similar:
          https://github.com/daliworks/sensorjs-app
+
+Multiplex socket:   
+         multiple channels on same connections 
+         https://github.com/IBM-Bluemix/iot-sensor-tag/blob/master/subscribe/app.js
+            
+Architecture:
+        https://github.com/IBM-Bluemix/iot-sensor-tag/blob/master/subscribe/public/sensor-tag.jpg

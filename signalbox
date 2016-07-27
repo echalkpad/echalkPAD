@@ -43,5 +43,6 @@ Graphs/Analytics
         Awesome visualizaton https://github.com/52North/helgoland
         Thin Web binding API to access timeseries data.
          https://github.com/webinos/webinos-widget
+         http://smoothiecharts.org/  realtime smooth grph for measurement
            
           https://github.com/dnahoole/sensor/blob/master/js/sensor.js (D3)

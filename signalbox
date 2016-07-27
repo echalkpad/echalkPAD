@@ -12,9 +12,11 @@ Sensor object model ( best ble modeule)
          API https://github.com/sandeepmistry/node-sensortag/blob/master/lib/sensortag.js
          https://github.com/sandeepmistry/noble
          html5 sensor interaction library for mobile https://github.com/ehzhang/sense-js/blob/master/public/js/sense.js
+         https://github.com/webinos/webinos-api-sensors/blob/master/test/web_root/sensor.html
          
 Security:
         https://github.com/daliworks/activator
+        https://github.com/bryanpaluch/home-monitor/blob/master/sensor-communicator/app/controllers/authorization.js
         
 Signalbox Similar:
          https://github.com/daliworks/sensorjs-app
@@ -22,6 +24,7 @@ Signalbox Similar:
 Multiplex socket:   
          multiple channels on same connections 
          https://github.com/IBM-Bluemix/iot-sensor-tag/blob/master/subscribe/app.js
+         https://github.com/BenLeroy/Ionic-sensor/blob/master/www/js/lb-services.js
             
 Architecture:
         https://github.com/IBM-Bluemix/iot-sensor-tag/blob/master/subscribe/public/sensor-tag.jpg
@@ -31,6 +34,6 @@ Graphs/Analytics
            http://sensors.fonts.cat/# https://github.com/oscarfonts/sensor-widgets (make it part of angular 2.0 widget)\
         Awesome visualizaton https://github.com/52North/helgoland
         Thin Web binding API to access timeseries data.
-
+         https://github.com/webinos/webinos-widget
            
           https://github.com/dnahoole/sensor/blob/master/js/sensor.js (D3)

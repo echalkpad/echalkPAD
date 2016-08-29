@@ -11,6 +11,7 @@ BLE
          https://github.com/tobiasfabian/Angel-Sensor-Node.js/tree/master/characteristics
          https://github.com/mschmulen/tracking-bluetooth-ibeacons-with-node
          https://github.com/mikaelbr/node-heartrate (perfect )
+         https://github.com/octoblu/interval-service/blob/master/src/services/message-service.coffee
          
 Sensor object model ( best ble modeule)
          https://github.com/echalkpad/sensorjs-ble

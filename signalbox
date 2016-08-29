@@ -10,6 +10,7 @@ BLE
          Best Similar to cordova ble
          https://github.com/tobiasfabian/Angel-Sensor-Node.js/tree/master/characteristics
          https://github.com/mschmulen/tracking-bluetooth-ibeacons-with-node
+         https://github.com/mikaelbr/node-heartrate (perfect )
          
 Sensor object model ( best ble modeule)
          https://github.com/echalkpad/sensorjs-ble
@@ -67,3 +68,7 @@ npm Proxy issue
 Server:
     https://github.com/mschmulen/workshop-strongloop-loopback
     strngloop startup linux script: https://gist.github.com/gurdotan/23311a236fc65dc212da
+
+Notifications:
+    https://github.com/mikaelbr/node-notifier
+    

@@ -12,7 +12,9 @@ BLE
          https://github.com/mschmulen/tracking-bluetooth-ibeacons-with-node
          https://github.com/mikaelbr/node-heartrate (perfect )
          https://github.com/octoblu/interval-service/blob/master/src/services/message-service.coffee
-         
+         https://github.com/TakehikoShimojima/ambient-genuino-heartrate
+         https://ambidata.io/examples/genu-pulse/
+         https://github.com/tobiasfabian/Angel-Sensor-Node.js/blob/4a4d8f3d2dc47835abf132f6d3c0145e59294e8d/index.js  ( best in class)
 Sensor object model ( best ble modeule)
          https://github.com/echalkpad/sensorjs-ble
          https://github.com/echalkpad/sensorjs
@@ -33,7 +35,8 @@ Signalbox Similar:
 
 Worker task for BLE:
         https://github.com/Automattic/kue
-         
+         https://github.com/octoblu/interval-worker/tree/master/src
+        
 Multiplex socket:   
          multiple channels on same connections 
          https://github.com/IBM-Bluemix/iot-sensor-tag/blob/master/subscribe/app.js

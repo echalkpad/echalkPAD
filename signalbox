@@ -33,6 +33,7 @@ Security:
         https://strongloop.com/strongblog/two-factor-authentication-with-loopback/
         
 Signalbox Similar:
+         https://github.com/marcgille/thing-it-node
          https://github.com/daliworks/sensorjs-app
          Raspberry Pi Bluetooth - https://github.com/f14c0/sensor
 

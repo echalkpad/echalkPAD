@@ -15,6 +15,7 @@ BLE
          https://github.com/TakehikoShimojima/ambient-genuino-heartrate
          https://ambidata.io/examples/genu-pulse/
          https://github.com/tobiasfabian/Angel-Sensor-Node.js/blob/4a4d8f3d2dc47835abf132f6d3c0145e59294e8d/index.js  ( best in class)
+
 Sensor object model ( best ble modeule)
          https://github.com/echalkpad/sensorjs-ble
          https://github.com/echalkpad/sensorjs
@@ -22,6 +23,8 @@ Sensor object model ( best ble modeule)
          https://github.com/sandeepmistry/noble
          html5 sensor interaction library for mobile https://github.com/ehzhang/sense-js/blob/master/public/js/sense.js
          https://github.com/webinos/webinos-api-sensors/blob/master/test/web_root/sensor.html
+         https://github.com/leeweisberger/angel_sensor/blob/3f0a5febe917ec1adff0efc408d4c5230a0c2e67/index.js
+         Good Object Model for thresholds - https://github.com/marcgille/thing-it-device-btle-heart-rate-monitor/blob/31bb422b12100c81b1ef24d81334b1ccdde08939/btleHeartRateMonitor.js
          
 Security:
         https://github.com/daliworks/activator

@@ -8,7 +8,8 @@ Wifi connection:
 
 BLE 
          Best Similar to cordova ble
-             https://github.com/tobiasfabian/Angel-Sensor-Node.js/tree/master/characteristics
+         https://github.com/tobiasfabian/Angel-Sensor-Node.js/tree/master/characteristics
+         https://github.com/mschmulen/tracking-bluetooth-ibeacons-with-node
          
 Sensor object model ( best ble modeule)
          https://github.com/echalkpad/sensorjs-ble
@@ -21,11 +22,15 @@ Sensor object model ( best ble modeule)
 Security:
         https://github.com/daliworks/activator
         https://github.com/bryanpaluch/home-monitor/blob/master/sensor-communicator/app/controllers/authorization.js
+        https://scotch.io/tutorials/easy-node-authentication-setup-and-local
+        https://strongloop.com/strongblog/two-factor-authentication-with-loopback/
         
 Signalbox Similar:
          https://github.com/daliworks/sensorjs-app
          Raspberry Pi Bluetooth - https://github.com/f14c0/sensor
-         
+
+Worker task for BLE:
+        https://github.com/Automattic/kue
          
 Multiplex socket:   
          multiple channels on same connections 
@@ -61,3 +66,4 @@ npm Proxy issue
 
 Server:
     https://github.com/mschmulen/workshop-strongloop-loopback
+    strngloop startup linux script: https://gist.github.com/gurdotan/23311a236fc65dc212da

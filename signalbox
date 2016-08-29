@@ -15,6 +15,7 @@ BLE
          https://github.com/TakehikoShimojima/ambient-genuino-heartrate
          https://ambidata.io/examples/genu-pulse/
          https://github.com/tobiasfabian/Angel-Sensor-Node.js/blob/4a4d8f3d2dc47835abf132f6d3c0145e59294e8d/index.js  ( best in class)
+         https://github.com/hollobit/wot.js-example/blob/ea4a071dad493833886277fa951a0b8c1c22f8d7/coex_edison_gateway/app.js
 
 Sensor object model ( best ble modeule)
          https://github.com/echalkpad/sensorjs-ble

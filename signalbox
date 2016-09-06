@@ -80,4 +80,5 @@ Server:
 
 Notifications:
     https://github.com/mikaelbr/node-notifier
+    Geo location based notification whisper - https://github.com/echalkpad/whisper
     

@@ -16,7 +16,10 @@ BLE
          https://ambidata.io/examples/genu-pulse/
          https://github.com/tobiasfabian/Angel-Sensor-Node.js/blob/4a4d8f3d2dc47835abf132f6d3c0145e59294e8d/index.js  ( best in class)
          https://github.com/hollobit/wot.js-example/blob/ea4a071dad493833886277fa951a0b8c1c22f8d7/coex_edison_gateway/app.js
-
+        https://github.com/AlexDmr/tacthab/blob/b86d44e9a5c1fff08a3add646fe9787e0245f2ad/TactHab_modules/Bricks/BLE/BrickBLE_server.js
+        
+        
+        
 Sensor object model ( best ble modeule)
          https://github.com/echalkpad/sensorjs-ble
          https://github.com/echalkpad/sensorjs
